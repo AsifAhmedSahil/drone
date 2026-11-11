@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Delta-wing "A" mark -->
+    <path
+        android:fillColor="#168BFF"
+        android:pathData="M54,26 L82,80 L54,66 L26,80 Z" />
+</vector>

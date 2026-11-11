@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The ESP32 speaks plain HTTP on a private Wi-Fi network (no internet, no certificate).
+    Android blocks cleartext by default, so it is allowed here. The ESP32 address is
+    editable in Settings, which is why this is not limited to a single domain.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
